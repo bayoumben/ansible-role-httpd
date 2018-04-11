@@ -2,4 +2,4 @@
 - hosts: awx
   become: true
   roles:
-    - role_test
+    - ansible-role-httpd
