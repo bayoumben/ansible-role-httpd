@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: awx
   become: true
   roles:
-    - role_test
+    - officel.httpd
